@@ -67,6 +67,9 @@ https://github.com/mahesh46/TFLTubeStatus/assets/3464277/9420e8fb-38a5-4c79-8b47
 
 <img width="1126" alt="Screenshot 2023-11-08 at 21 12 20" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/aba0918f-ea4a-4216-8789-d8bb530dc322">
 
+#
+> [!IMPORTANT]
+> I created a ServiceProtocol, so that I can inject NetworkService and MockNetworkservice for live and mock testing
 
 #
 > [!IMPORTANT]
