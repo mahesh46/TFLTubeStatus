@@ -1,0 +1,11 @@
+//
+//  Release.xcconfig
+//  tflTubeStatus
+//
+//  Created by mahesh lad on 08/11/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CT_API_URL = api.tfl.gov.uk/Line/Mode/Tube/Status
