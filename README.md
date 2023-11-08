@@ -51,6 +51,16 @@ The results should display correctly on a mobile device. Specifically, the line 
 <img width="359" alt="Screenshot 2023-11-08 at 20 47 02" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/fec5745d-0181-457c-8884-e91d00af7fc9">
 
 #
+> [!NOTE]
+> In the mac in xcode, with the xcode project running in the simulator.
+> choose from menu Xcode -> Open Developer Tools -> tap on Accessibility Inspector
+> In the accessibility Inspector, choose the simiulator
+> Then click on play button
+
+
+https://github.com/mahesh46/TFLTubeStatus/assets/3464277/9420e8fb-38a5-4c79-8b47-1eba0c1581f4
+
+
 
 > [!IMPORTANT]
 > The API URL is inthe Debug.xcconfig and Release.xcconfig file in the project and is set as follows
