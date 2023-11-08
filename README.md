@@ -31,3 +31,28 @@ The results should display correctly on a mobile device. Specifically, the line 
 - anything else you think is relevant
 * It should be possible to configure your application to use a different API key. You should ensure that yours are removed from the source code before you submit it and instructions are included in the readme file as how to change these.
 
+# Developer Notes:
+
+> [!NOTE]
+> Run the project in an iphone or Ipad simulator.
+> You can rotate the screen to see the auto layout
+<img width="355" alt="Screenshot 2023-11-08 at 20 36 06" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/737bed14-1d03-49b3-a2f7-0f4b5ae8418b">
+<img width="755" alt="Screenshot 2023-11-08 at 20 36 18" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/644ff342-7580-4aca-b955-2b7d1d32a39a">
+
+
+#
+
+> [!NOTE]
+> In the mac iphone simulator.
+> Open Setting -> Accessibility -> Display and Text size
+> Press  Larger Text, toggle on , larger accessibility Sizes , then use slider to adjust the text size
+> Then go back to the app to see the larger text on the app
+
+<img width="359" alt="Screenshot 2023-11-08 at 20 47 02" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/fec5745d-0181-457c-8884-e91d00af7fc9">
+
+#
+
+> [!IMPORTANT]
+> The API URL is inthe Debug.xcconfig and Release.xcconfig file in the project and is set as follows
+> 
+> CT_API_URL = api.tfl.gov.uk/Line/Mode/Tube/Status
