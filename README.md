@@ -63,9 +63,16 @@ https://github.com/mahesh46/TFLTubeStatus/assets/3464277/9420e8fb-38a5-4c79-8b47
 #
 > [!NOTE]
 > In the mac in xcode, with the xcode project, in the test navigator.
->  click on the dimond next to the class NetworkServiceTests, to run the XCTests tests
+>  click on the diamond next to the class NetworkServiceTests, to run the XCTests tests
 
 <img width="1126" alt="Screenshot 2023-11-08 at 21 12 20" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/aba0918f-ea4a-4216-8789-d8bb530dc322">
+
+> [!NOTE]
+> In the mac in xcode, with the xcode project, in the test navigator.
+> click on the diamond next to the class tflTubeStatusTests, to run the XCTestsUI tests
+> 
+> Using mockdata for test (based on a snapshot of live data) - so that results are consistent, if we used live data, the tube services status could change.
+<img width="1142" alt="Screenshot 2023-11-08 at 23 32 51" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/8179d7cc-2113-4a54-8f01-421dab3fb9eb">
 
 #
 > [!IMPORTANT]
