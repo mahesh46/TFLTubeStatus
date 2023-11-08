@@ -42,7 +42,7 @@ final class NetworkServiceTests: XCTestCase {
     
     func testFetchDataBadURL() throws {
         // Arrange given
-        let networkService = NetworkService(urlString: "http://ww")
+        let networkService = NetworkService("http://ww")
         // then
         let expectation = XCTestExpectation(description: "Expect network service to throw badURL error")
 
@@ -64,7 +64,7 @@ final class NetworkServiceTests: XCTestCase {
     // A test case that checks if the network service throws an error for bad data
     func testFetchDataBadData() async throws {
         // Arrange given
-        let networkService = NetworkService(urlString: "http://www.google.com")
+        let networkService = NetworkService("http://www.google.com")
         // Arrange
         let expectation = XCTestExpectation(description: "Expect network service to throw badData error")
 
@@ -82,10 +82,4 @@ final class NetworkServiceTests: XCTestCase {
 
     }
     
-    func testPerformanceExample() throws {
-           // This is an example of a performance test case.
-           self.measure {
-        // Put the code you want to measure the time of here.
-           }
-       }
 }
