@@ -19,7 +19,7 @@ class TubeViewModel: ObservableObject{
     
     func getTubeStatus() async {
         do {
-            let result = try await NetworkService().fetchData()
+            let result = try await  self.serviceProtocol.fetchData()
             self.result = result
         } catch let error {
             print(error.localizedDescription)

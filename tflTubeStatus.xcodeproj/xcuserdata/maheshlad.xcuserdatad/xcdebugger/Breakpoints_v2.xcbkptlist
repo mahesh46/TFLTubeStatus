@@ -178,5 +178,195 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05313DFE-4C14-42A4-965E-6B824ECAC049"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "05313DFE-4C14-42A4-965E-6B824ECAC049 - 30100fa246edf64d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of tflTubeStatus.ContentView.tubeViewModel : tflTubeStatus.TubeViewModel"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "05313DFE-4C14-42A4-965E-6B824ECAC049 - c64172f295a96d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tflTubeStatus.ContentView.tubeViewModel.getter : tflTubeStatus.TubeViewModel"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "05313DFE-4C14-42A4-965E-6B824ECAC049 - 965d71c6d709baf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tflTubeStatus.ContentView.$tubeViewModel.getter : SwiftUI.ObservedObject&lt;tflTubeStatus.TubeViewModel&gt;.Wrapper"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "05313DFE-4C14-42A4-965E-6B824ECAC049 - ba877feeb91b24df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of tflTubeStatus.ContentView.init(tubeViewModel: @autoclosure () -&gt; tflTubeStatus.TubeViewModel) -&gt; tflTubeStatus.ContentView"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "675A5429-96F1-4FFD-8992-D71D85B03F8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/Factory/NetworkServiceFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "create()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "675A5429-96F1-4FFD-8992-D71D85B03F8E - 20bc38a1e131412f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static tflTubeStatus.NetworkServiceFactory.create() -&gt; tflTubeStatus.ServiceProtocol"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/Factory/NetworkServiceFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "675A5429-96F1-4FFD-8992-D71D85B03F8E - 20bc38a1e131412f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static tflTubeStatus.NetworkServiceFactory.create() -&gt; tflTubeStatus.ServiceProtocol"
+                  moduleName = "tflTubeStatus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshlad/Desktop/TFL_TubeStatus/tflTubeStatus/Factory/NetworkServiceFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A11BB9BA-9998-49F6-ABA9-E4D9F9134338"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/Factory/NetworkServiceFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "create()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "552B7F1F-E74D-4A39-A62C-1DE75ECB6DB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/Factory/NetworkServiceFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "create()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "905AF4F2-7377-4052-A84C-C403D543D8A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/Factory/NetworkServiceFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "create()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56670EAF-3A7A-47B6-B1F4-FF416BAA1275"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tflTubeStatus/Mock/MockNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
