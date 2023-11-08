@@ -60,8 +60,15 @@ The results should display correctly on a mobile device. Specifically, the line 
 
 https://github.com/mahesh46/TFLTubeStatus/assets/3464277/9420e8fb-38a5-4c79-8b47-1eba0c1581f4
 
+#
+> [!NOTE]
+> In the mac in xcode, with the xcode project, in the test navigator.
+>  click on the dimond next to the class NetworkServiceTests, to run the XCTests tests
+
+<img width="1126" alt="Screenshot 2023-11-08 at 21 12 20" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/aba0918f-ea4a-4216-8789-d8bb530dc322">
 
 
+#
 > [!IMPORTANT]
 > The API URL is inthe Debug.xcconfig and Release.xcconfig file in the project and is set as follows
 > 
