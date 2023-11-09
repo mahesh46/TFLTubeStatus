@@ -33,7 +33,7 @@ class NetworkService : ServiceProtocol {
             self.urlString = urlString
         }
     }
-
+    
     func fetchData() async throws -> [TubeResult]? {
         guard let url = URL(string: self.urlString) else {
             print("This URL is not working!")
@@ -52,6 +52,6 @@ class NetworkService : ServiceProtocol {
             print("These data are not valid")
             throw NetworkError.badData
         }
-       
+        
     }
 }

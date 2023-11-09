@@ -8,14 +8,14 @@
 import Foundation
 
 class MockNetworkService : ServiceProtocol {
-
+    
     func fetchData() async throws -> [TubeResult]? {
         
         guard let url = Bundle.main.url(forResource: "MockTubeStatus", withExtension: "json")
-            else {
-                print("json file not found")
+        else {
+            print("json file not found")
             throw NetworkError.badData
-            }
+        }
         
         do {
             let data = try? Data(contentsOf: url)
@@ -29,6 +29,6 @@ class MockNetworkService : ServiceProtocol {
             print("These data are not valid")
             throw NetworkError.badData
         }
-       
+        
     }
 }

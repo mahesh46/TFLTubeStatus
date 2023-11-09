@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-  //  @StateObject private var tubeViewModel = TubeViewModel(serviceProtocol: MockNetworkService())
-   
+    
     @StateObject  var tubeViewModel = TubeViewModel(serviceProtocol: NetworkServiceFactory.create() )
     
     var body: some View {
@@ -36,7 +35,7 @@ struct ContentView: View {
                     .accessibilityValue((isReason != nil ) ? Text("\(tubeResult.lineStatuses.first?.statusSeverityDescription ?? "") \(tubeResult.lineStatuses.first?.reason ?? "")") : Text("\(tubeResult.lineStatuses.first?.statusSeverityDescription ?? "")"))
                 
                     .accessibility(addTraits: .isButton)
-                // .accessibilityAction(named("Tap"))
+                
             }
             .navigationBarTitle("Tube Status")
             .task {

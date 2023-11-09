@@ -9,7 +9,7 @@ import XCTest
 
 final class tflTubeStatusUITests: XCTestCase {
     private var app: XCUIApplication!
-
+    
     
     override func setUp() {
         app = XCUIApplication()
@@ -17,13 +17,13 @@ final class tflTubeStatusUITests: XCTestCase {
         app.launchEnvironment = ["ENV": "TEST"]
         app.launch()
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-   
-
+    
+    
+    
     
     func test_show_mock_data_tube_status() {
         
@@ -49,8 +49,8 @@ final class tflTubeStatusUITests: XCTestCase {
         XCTAssert(goodServiceStaticText.exists)
         
         goodServiceStaticText.swipeUp()
-       
-       
+        
+        
         let hammersmithDistrictline = collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Hammersmith & City"]/*[[".cells",".buttons[\"Hammersmith & City\"].staticTexts[\"Hammersmith & City\"]",".staticTexts[\"Hammersmith & City\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
         XCTAssert(hammersmithDistrictline.exists)
         let hammersmithDistrictlineService = collectionViewsQuery/*@START_MENU_TOKEN@*/.buttons["Hammersmith & City"]/*[[".cells.buttons[\"Hammersmith & City\"]",".buttons[\"Hammersmith & City\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.staticTexts["Minor Delays"]

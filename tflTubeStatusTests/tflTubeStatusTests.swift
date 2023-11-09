@@ -10,14 +10,14 @@ import XCTest
 
 final class NetworkServiceTests: XCTestCase {
     
-       override func setUpWithError() throws {
-       // Put setup code here. This method is called before the invocation of each test method in the class.
-        }
+    override func setUpWithError() throws {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
     
-       override func tearDownWithError() throws {
+    override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        }
-
+    }
+    
     // A test case that checks if the network service can fetch valid data
     func testFetchDataSuccess() async throws {
         // given
@@ -36,8 +36,8 @@ final class NetworkServiceTests: XCTestCase {
             }
         }
     }
-
- 
+    
+    
     
     
     func testFetchDataBadURL() throws {
@@ -45,7 +45,7 @@ final class NetworkServiceTests: XCTestCase {
         let networkService = NetworkService("http://ww")
         // then
         let expectation = XCTestExpectation(description: "Expect network service to throw badURL error")
-
+        
         // Act
         Task {
             do {
@@ -57,29 +57,29 @@ final class NetworkServiceTests: XCTestCase {
                 expectation.fulfill()
             }
         }
-     
+        
     }
-
-
+    
+    
     // A test case that checks if the network service throws an error for bad data
     func testFetchDataBadData() async throws {
         // Arrange given
         let networkService = NetworkService("http://www.google.com")
         // Arrange
         let expectation = XCTestExpectation(description: "Expect network service to throw badData error")
-
+        
         // Act
         Task {
             do {
                 _ = try await networkService.fetchData()
-              
+                
             } catch {
                 // Assert
                 XCTAssertEqual(error as? NetworkError, .badData)
                 expectation.fulfill()
             }
         }
-
+        
     }
     
 }
