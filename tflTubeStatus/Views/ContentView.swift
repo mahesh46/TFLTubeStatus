@@ -37,12 +37,14 @@ struct ContentView: View {
                     .accessibility(addTraits: .isButton)
                 
             }
+            .preferredColorScheme(.light)
             .navigationBarTitle("Tube Status")
             .task {
                 await tubeViewModel.getTubeStatus()
             }
         }
     }
+       
 }
 
 #Preview {

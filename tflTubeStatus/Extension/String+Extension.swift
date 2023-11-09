@@ -20,7 +20,7 @@ extension String {
         case "Metropolitan": return Color.metropolitanLine
         case "Northern": return Color.northernLine
         case "Piccadilly": return Color.piccadillyLine
-        case "Victortia": return Color.victoriaLine
+        case "Victoria": return Color.victoriaLine
         case "Waterloo & City": return Color.waterlooCityLine
         default: return nil
         }
