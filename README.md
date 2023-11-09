@@ -34,7 +34,7 @@ The results should display correctly on a mobile device. Specifically, the line 
 # Developer Notes:
 
 > [!NOTE]
-> Run the project in an iphone or Ipad simulator.
+> In XCode, run the project in an iphone or Ipad simulator.
 > You can rotate the screen to see the auto layout
 <img width="355" alt="Screenshot 2023-11-08 at 20 36 06" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/737bed14-1d03-49b3-a2f7-0f4b5ae8418b">
 <img width="755" alt="Screenshot 2023-11-08 at 20 36 18" src="https://github.com/mahesh46/TFLTubeStatus/assets/3464277/644ff342-7580-4aca-b955-2b7d1d32a39a">
