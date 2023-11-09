@@ -76,6 +76,10 @@ https://github.com/mahesh46/TFLTubeStatus/assets/3464277/9420e8fb-38a5-4c79-8b47
 
 #
 > [!IMPORTANT]
+> I Used XCTestUI test to check screen content, you could use,package manager [Snapshots to ](https://github.com/pointfreeco/swift-snapshot-testing) to check screen content has not changed. But you can check this if you test each field in the XCTestUI test.
+
+#
+> [!IMPORTANT]
 > I created a ServiceProtocol, so that I can inject NetworkService and MockNetworkservice for live and mock testing
 
 #
