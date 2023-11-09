@@ -124,7 +124,7 @@
 				FC6D53AF2AFADF9500CBA6D4 /* WebService */,
 				FC6D53AA2AFADEA200CBA6D4 /* Factory */,
 				FC6D53AB2AFADED000CBA6D4 /* Mock */,
-				FC6D53722AFA3F2700CBA6D4 /* ContentView.swift */,
+				FC6D53B62AFC5FB600CBA6D4 /* Views */,
 				FC6D53742AFA3F2800CBA6D4 /* Assets.xcassets */,
 				FC6D53762AFA3F2800CBA6D4 /* Preview Content */,
 			);
@@ -214,6 +214,14 @@
 				FC6D53B12AFBF27D00CBA6D4 /* Release.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		FC6D53B62AFC5FB600CBA6D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D53722AFA3F2700CBA6D4 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
